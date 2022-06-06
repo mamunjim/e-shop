@@ -1,0 +1,103 @@
+.gray-bg{
+    background: #f7f7f7;
+}
+body h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Roboto', sans-serif;
+}
+/* menu section start */
+.menu-section{
+    box-shadow: 0px 0px 5px #4444;
+}
+.navbar-brand img{
+    width: 125px;
+}
+.menu-section ul{
+    list-style: none;
+}
+.menu-section ul li{}
+.navbar-search{
+    position: relative;
+   
+}
+.form-button{
+    position: absolute;
+    top: 0;
+    right:0;
+    padding: 6px 35px;
+    background: #fd7e14;
+    color: white;
+    border: 1px solid #fd7e14;
+}
+.navbar-form{
+   width: 371px;
+    
+}
+.navbar-icon-button li{
+    display: inline-block;
+    padding: 0 30px;
+}
+.navbar-icon-button li a{
+    color: rgb(108, 112, 116);
+}
+
+/* menu section end */
+
+/* slider section start */
+.slider-section{
+    background: #f7f7f7;
+    padding-bottom: 60px;
+}
+.slider-info h1{
+    font-size: 70px;
+}
+.default-text{
+font-size: 16px;
+color: #4a4949cc;
+}
+.slider-button {
+    background: #fd7e14;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+/* slider section end */
+
+/* catagory section start */
+.card{
+    padding: 10px;
+    overflow: hidden;
+    height: 300px;
+}
+.default-heading{
+    text-shadow: 1px 1px 2px #4444;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.card-title h4{
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #4444;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.card-button .view-button{
+    background: #198754;
+    color: white;
+    padding: 4px 35px;
+    border-radius: 30px;
+}
+.card-image{
+    text-align: center;
+}
+.card-image img{
+    width: 80%;
+    transition: .5s ease-in-out;
+    transform: scale(1);
+    height: auto;
+   
+}
+.card:hover .card-image img{
+  transform: scale(1.2);
+}
+
+/* catagory section end */

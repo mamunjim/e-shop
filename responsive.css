@@ -1,0 +1,39 @@
+@media (min-width:1200px){
+    .banner-heading{
+        padding: 20px;
+        padding-right: 650px;
+    }
+}
+@media (max-width:1200px){
+    .banner-heading{
+        padding: 20px;
+        padding-right: 470px;
+    }
+}
+@media (max-width:992px){
+    .banner-heading{
+        padding: 20px;
+        padding-right: 233px;
+        font-size: 50px;
+    }
+    
+}
+@media (max-width:768px){
+.banner-heading{
+    padding: 20px;
+    padding-right: 173px;
+    font-size: 34px;
+    bottom: 11px;
+    
+}
+}
+@media (max-width:576px){
+.banner-heading{
+    padding: 10px;
+    padding-right: 150px;
+    font-size: 30px;
+    bottom: 22px;
+    left: 26px;
+    
+}
+}

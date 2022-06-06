@@ -64,7 +64,7 @@ color: #4a4949cc;
 /* slider section end */
 
 /* catagory section start */
-.card{
+.catagory-card{
     padding: 10px;
     overflow: hidden;
     height: 300px;
@@ -80,7 +80,7 @@ color: #4a4949cc;
     font-weight: 400;
     margin: 20px 0;
 }
-.card-button .view-button{
+.view-button{
     background: #198754;
     color: white;
     padding: 4px 35px;
@@ -101,3 +101,66 @@ color: #4a4949cc;
 }
 
 /* catagory section end */
+
+/* fresh section start */
+.order-button{
+    padding: 7px 29px;
+}
+.fresh-image img{
+    width: 230px;
+}
+.fresh-content{
+    border-radius: 2px;
+}
+/* fresh section end */
+
+/* product section start */
+.product-heading{
+    border-bottom: 1px solid #c2c3c4;
+    padding-bottom: 10px;
+}
+.product-card{
+    border: none;
+}
+.product-price{
+    font-size: 23px;
+    margin-top: -10px;
+}
+.cart-button button{
+    border-radius: 30px;
+    color: #198754;
+    border: 1px solid #198754;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 30px;
+    margin-right: 15px;
+    transition: .5s;
+}
+.cart-button button:hover{
+    background:#198754 ;
+    color: white;
+}
+.product-body{
+    line-height: 40px;
+}
+.dim img{
+    width:280px;
+}
+.dim{
+    text-align: left;
+}
+
+/* product section end */
+
+/* bannr section start */
+.banner-image{
+    position: relative;
+}
+.banner-heading {
+    color: #198754;
+    position: absolute;
+    bottom: 40px;
+    left: 133px;
+    font-size: 55px;
+    font-weight: 500;
+}

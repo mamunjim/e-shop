@@ -149,6 +149,9 @@ color: #4a4949cc;
 .dim{
     text-align: left;
 }
+.card-image {
+    overflow: hidden;
+}
 
 /* product section end */
 
@@ -164,3 +167,72 @@ color: #4a4949cc;
     font-size: 55px;
     font-weight: 500;
 }
+.play-animation{
+    position: absolute;
+    bottom: 93px;
+    right: 221px;
+    font-size: 50px;
+    color: #fd7e14;
+    background: #ffffff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+}
+.play-animation::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fd7e14;
+    border-radius: 50%;
+    animation: play-animation-button ease-in-out 1s infinite;
+    
+}
+@keyframes play-animation-button{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(1.4);
+        opacity: .6;
+    }
+    75%{
+        transform: scale(1.6);
+        opacity: .4;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+/* banner section end */
+
+
+/* foter section start */
+.footer-heading{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.footer-section ul{
+    margin-left: 18px;
+}
+.footer-section ul li{
+    position: relative;
+}
+.footer-section ul li::before{
+    content: attr(data-counter);
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+
+/* foter section end */
